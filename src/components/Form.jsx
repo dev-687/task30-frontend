@@ -9,7 +9,7 @@ const onSubmit=async (e)=>{
     e.preventDefault();
 
     try {
-        const result=await axios.post(`http://localhost:5000/api/store_data`,formData);
+        const result=await axios.post(`https://task30-backend.vercel.app/api/store_data`,formData);
 
         // console.log(result.data);
         
